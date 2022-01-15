@@ -38,3 +38,8 @@ Repo for my learning docker with react found [here](https://mherman.org/blog/doc
 #### Compose
 
         docker-compose -f docker-compose.prod.yml up -d --build
+
+### Heroku Settings
+
+        heroku stack:set container -a <container-name>
+        git push heroku main
